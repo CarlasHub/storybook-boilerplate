@@ -1,0 +1,1 @@
+const addons = require('./path/to/module');
