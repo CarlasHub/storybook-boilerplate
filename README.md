@@ -4,8 +4,6 @@ This is a boilerplate project for Storybook, a user interface development enviro
 
 ## Installation
 
-To get started, clone the project and install the required dependencies:
-
 ```sh
 npm install react-dom
 npx storybook init
@@ -18,3 +16,23 @@ npm install --save-dev @storybook/addon-console
 npm run build
 npm run storybook
 npm install storybook-zeplin
+
+my-storybook-project/
+├── .storybook/
+│   ├── main.js
+│   ├── preview.js
+│   └── addons.js
+├── public/
+│   └── index.html
+├── src/
+│   ├── Button/
+│   │   ├── Button.js
+│   │   ├── Button.stories.js
+│   │   └── Button.test.js
+│   └── Input/
+│       ├── Input.js
+│       ├── Input.stories.js
+│       └── Input.test.js
+├── package.json
+└── README.md
+
